@@ -5,8 +5,8 @@ body {
 }
 
 #img-central{
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
 }
 
 #hero{
@@ -20,8 +20,8 @@ body {
 
 h1 {
     font-family: 'Inter', sans-serif;
-    font-size: 50px;
-    line-height: 55px;
+    font-size: 45px;
+    line-height: 50px;
     font-weight: normal;
     margin-bottom: 30px;
 }
@@ -36,12 +36,32 @@ span {
     font-weight: bold;
 }
 
-p{
+p, .footer{
     color: #7d7987;
     font-size: 14px;
-    line-height: 28px;
+    line-height: 20px;
 }
 
-#footer a + a{
+.footer a + a{
     padding-left: 25px;
+}
+
+.footer{
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 8px;
+    border: 1px solid #494a5b83;
+}
+
+#selo{
+    width: 5rem;
+    height: 5rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
 }
